@@ -1,0 +1,29 @@
+<!-- kontrol.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontrol Skor Cerdas Cermat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Kontrol Skor</h1>
+    <div class="select">
+        <label for="team-select">Pilih Tim:</label>
+        <select id="team-select">
+            <option value="1">Tim 2</option>
+            <option value="2">Tim 3</option>
+            <option value="3">Tim 4</option>
+        </select>
+    </div>
+    <div class="input">
+        <label for="score-input">Masukkan Poin:</label>
+        <input type="number" id="score-input" value="0">
+    </div>
+    <button onclick="updateScore()">Update Poin</button>
+
+    <button onclick="window.location.href='poin.html'">Kembali ke Hasil Skor</button>
+    <script src="script.js"></script>
+</body>
+</html>
