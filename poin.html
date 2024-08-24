@@ -1,4 +1,3 @@
-<!-- poin.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +9,7 @@
 <body>
     <h1>Final Cerdas Cermat Islam</h1>
     <h4>Asrama XIV Ribath Hidayatul Quran</h4>
+    <h3 style="font-size: 30px;">Timer: <span id="timerDisplay"></span> Detik</h3>
     <div class="container">
         <div class="team-card">
             <h2>Tim 1</h2>
@@ -25,7 +25,11 @@
         </div>
     </div>
 
+    <audio id="timer-sound" src="src/timer.mp3"></audio>
+    <audio id="timer-habis" src="src/waktu-habis.mp3"></audio>
+
     <button onclick="window.location.href='kontrol.html'">Kontrol Skor</button>
+    <button onclick="startTimer()">Mulai Timer</button>
     <script src="script.js"></script>
 </body>
 </html>
