@@ -13,6 +13,7 @@ button {
     padding: 10px 20px;
     margin-right: 10px;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .tab-content {
